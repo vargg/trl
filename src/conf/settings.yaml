@@ -1,0 +1,24 @@
+db:
+  path: "~"
+  file_name: "trl.db"
+
+wh:
+  url: "https://wooordhunt.ru/word/"
+  wait_between_requests: 100 # miliseconds
+
+data:
+  space: " "
+  separator: ","
+  max_translate_items: 3
+
+dump:
+  json:
+    indent: "  "
+
+load:
+  csv:
+    columns: 3
+    separator: ";"
+
+logger:
+  level: error
