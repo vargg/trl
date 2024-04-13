@@ -14,8 +14,6 @@ import (
 	"golang.org/x/net/html"
 )
 
-const baseURLAsString = "https://wooordhunt.ru/word"
-
 var baseURL *url.URL
 
 func LoadWordData(word string) (string, string) {
