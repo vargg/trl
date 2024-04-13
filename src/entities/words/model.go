@@ -20,7 +20,7 @@ type WordModel struct {
 
 func (this *WordModel) MakeLine() string {
 	return fmt.Sprintf(
-		"%s;%s;%s",
+		"%s [%s] = %s",
 		this.Word,
 		this.Transcription,
 		this.Translation,
